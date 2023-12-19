@@ -1,8 +1,9 @@
-def solver(value):
-    """Write a function in python that returns the largest prime factor of a given number.
+"""Write a function in python that returns the largest prime factor of a given number.
     Edit the file solver.py to update the function solver to
     return the answer when called as in the below example.
-    """
+"""
+def solver(value):
+    """This is the solver """
     n = value
     square = int(n**0.5)
     arr = [i for i in range(1, square + 1) if n % i == 0]
@@ -35,4 +36,4 @@ def solver(value):
 
 
 if __name__ == "__main__":
-    print(solver(6008514751543))
+    print(solver(600851475143))
